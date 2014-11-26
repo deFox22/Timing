@@ -20,10 +20,15 @@ def createTypeError():
 def createSyntaxError():
 	return whoops.
 
+# Create a Attribute Error
+# Float object does not have a length attribute
 
-
+def createAttributeError():
+	a = 5.3
+	return a.length
 
 
 # createNameError()
 # createTypeError()
-createSyntaxError()
+# createSyntaxError()
+# createAttributeError()
